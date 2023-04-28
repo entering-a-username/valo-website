@@ -1,0 +1,23 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+#outline {
+    position: absolute;
+    font-size: 200px;
+    mix-blend-mode: darken;
+    white-space: break-spaces;
+    -webkit-text-stroke-width: 0.2px;
+    line-height: 1;
+    -webkit-text-fill-color: transparent;
+}
+
+#arrowID:hover {
+    animation-name: float-right;
+    animation-duration: 1s;
+}
+
+@keyframes float-right {
+    0% {transform: translate(0, 0px);}
+    100% {transform: translate(12px, 0px);}
+}
