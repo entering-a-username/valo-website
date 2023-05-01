@@ -10,7 +10,6 @@
 
 #outline {
     position: absolute;
-    font-size: 135px;
     mix-blend-mode: darken;
     -webkit-text-stroke-width: 0.2px;
     line-height: 1;
@@ -20,6 +19,7 @@
 #arrowID:hover {
     animation-name: float-right;
     animation-duration: .5s;
+    animation-fill-mode: forwards;
 }
 
 #buttonID {
